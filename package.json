@@ -1,0 +1,57 @@
+{
+  "name": "vanzzryuichi",
+  "version": "10.0.3",
+  "description": "VannZ Custom Baileys",
+  "keywords": [
+    "whatsapp-api",
+    "automation",
+    "whatsapp",
+    "baileys",
+    "meta"
+  ],
+  "homepage": "https://vsunsee.com",
+  "repository": {
+    "url": "https://whatsapp.com/channel/0029VamHr3F8aKvTU8dBdT43"
+  },
+  "license": "MIT",
+  "author": "vann-dev",
+  "main": "lib/index.js",
+  "files": [
+    "lib/*",
+    "WAProto/*",
+    "WASignalGroup/*.js",
+    "engine-requirements.js"
+  ],
+  "scripts": {
+    "preinstall": "node ./engine-requirements.js"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@cacheable/node-cache": "^1.5.5",
+    "@hapi/boom": "^10.0.1",
+    "async-mutex": "^0.5.0",
+    "audio-decode": "^2.2.2",
+    "axios": "^1.9.0",
+    "cache-manager": "^6.4.3",
+    "child-process": "^1.0.2",
+    "jimp": "^1.6.0",
+    "libsignal": "npm:@meta.inc/libsignal",
+    "link-preview-js": "^3.0.14",
+    "lodash": "^4.17.21",
+    "music-metadata": "^11.2.1",
+    "os": "^0.1.2",
+    "pino": "^9.6",
+    "protobufjs": "^7.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "semver": "^7.7.2",
+    "sharp": "^0.34.1",
+    "ws": "^8.18.2"
+  },
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
